@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EC169142139BDC5009EFBEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC169132139BDC5009EFBEC /* AppDelegate.swift */; };
+		8EC169162139BDC5009EFBEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC169152139BDC5009EFBEC /* ViewController.swift */; };
+		8EC169192139BDC5009EFBEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EC169172139BDC5009EFBEC /* Main.storyboard */; };
+		8EC1691B2139BDC6009EFBEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EC1691A2139BDC6009EFBEC /* Assets.xcassets */; };
+		8EC1691E2139BDC6009EFBEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EC1691C2139BDC6009EFBEC /* LaunchScreen.storyboard */; };
+		8EC169292139BDC6009EFBEC /* vasikoRago_codePathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC169282139BDC6009EFBEC /* vasikoRago_codePathTests.swift */; };
+		8EC169342139BDC6009EFBEC /* vasikoRago_codePathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC169332139BDC6009EFBEC /* vasikoRago_codePathUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EC169252139BDC6009EFBEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EC169082139BDC5009EFBEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EC1690F2139BDC5009EFBEC;
+			remoteInfo = vasikoRago_codePath;
+		};
+		8EC169302139BDC6009EFBEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EC169082139BDC5009EFBEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EC1690F2139BDC5009EFBEC;
+			remoteInfo = vasikoRago_codePath;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8EC169102139BDC5009EFBEC /* vasikoRago_codePath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vasikoRago_codePath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EC169132139BDC5009EFBEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8EC169152139BDC5009EFBEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8EC169182139BDC5009EFBEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EC1691A2139BDC6009EFBEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EC1691D2139BDC6009EFBEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EC1691F2139BDC6009EFBEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EC169242139BDC6009EFBEC /* vasikoRago_codePathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vasikoRago_codePathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EC169282139BDC6009EFBEC /* vasikoRago_codePathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vasikoRago_codePathTests.swift; sourceTree = "<group>"; };
+		8EC1692A2139BDC6009EFBEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EC1692F2139BDC6009EFBEC /* vasikoRago_codePathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vasikoRago_codePathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EC169332139BDC6009EFBEC /* vasikoRago_codePathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vasikoRago_codePathUITests.swift; sourceTree = "<group>"; };
+		8EC169352139BDC6009EFBEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EC1690D2139BDC5009EFBEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC169212139BDC6009EFBEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC1692C2139BDC6009EFBEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EC169072139BDC5009EFBEC = {
+			isa = PBXGroup;
+			children = (
+				8EC169122139BDC5009EFBEC /* vasikoRago_codePath */,
+				8EC169272139BDC6009EFBEC /* vasikoRago_codePathTests */,
+				8EC169322139BDC6009EFBEC /* vasikoRago_codePathUITests */,
+				8EC169112139BDC5009EFBEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EC169112139BDC5009EFBEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EC169102139BDC5009EFBEC /* vasikoRago_codePath.app */,
+				8EC169242139BDC6009EFBEC /* vasikoRago_codePathTests.xctest */,
+				8EC1692F2139BDC6009EFBEC /* vasikoRago_codePathUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EC169122139BDC5009EFBEC /* vasikoRago_codePath */ = {
+			isa = PBXGroup;
+			children = (
+				8EC169132139BDC5009EFBEC /* AppDelegate.swift */,
+				8EC169152139BDC5009EFBEC /* ViewController.swift */,
+				8EC169172139BDC5009EFBEC /* Main.storyboard */,
+				8EC1691A2139BDC6009EFBEC /* Assets.xcassets */,
+				8EC1691C2139BDC6009EFBEC /* LaunchScreen.storyboard */,
+				8EC1691F2139BDC6009EFBEC /* Info.plist */,
+			);
+			path = vasikoRago_codePath;
+			sourceTree = "<group>";
+		};
+		8EC169272139BDC6009EFBEC /* vasikoRago_codePathTests */ = {
+			isa = PBXGroup;
+			children = (
+				8EC169282139BDC6009EFBEC /* vasikoRago_codePathTests.swift */,
+				8EC1692A2139BDC6009EFBEC /* Info.plist */,
+			);
+			path = vasikoRago_codePathTests;
+			sourceTree = "<group>";
+		};
+		8EC169322139BDC6009EFBEC /* vasikoRago_codePathUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8EC169332139BDC6009EFBEC /* vasikoRago_codePathUITests.swift */,
+				8EC169352139BDC6009EFBEC /* Info.plist */,
+			);
+			path = vasikoRago_codePathUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EC1690F2139BDC5009EFBEC /* vasikoRago_codePath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EC169382139BDC6009EFBEC /* Build configuration list for PBXNativeTarget "vasikoRago_codePath" */;
+			buildPhases = (
+				8EC1690C2139BDC5009EFBEC /* Sources */,
+				8EC1690D2139BDC5009EFBEC /* Frameworks */,
+				8EC1690E2139BDC5009EFBEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vasikoRago_codePath;
+			productName = vasikoRago_codePath;
+			productReference = 8EC169102139BDC5009EFBEC /* vasikoRago_codePath.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EC169232139BDC6009EFBEC /* vasikoRago_codePathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EC1693B2139BDC6009EFBEC /* Build configuration list for PBXNativeTarget "vasikoRago_codePathTests" */;
+			buildPhases = (
+				8EC169202139BDC6009EFBEC /* Sources */,
+				8EC169212139BDC6009EFBEC /* Frameworks */,
+				8EC169222139BDC6009EFBEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EC169262139BDC6009EFBEC /* PBXTargetDependency */,
+			);
+			name = vasikoRago_codePathTests;
+			productName = vasikoRago_codePathTests;
+			productReference = 8EC169242139BDC6009EFBEC /* vasikoRago_codePathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8EC1692E2139BDC6009EFBEC /* vasikoRago_codePathUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EC1693E2139BDC6009EFBEC /* Build configuration list for PBXNativeTarget "vasikoRago_codePathUITests" */;
+			buildPhases = (
+				8EC1692B2139BDC6009EFBEC /* Sources */,
+				8EC1692C2139BDC6009EFBEC /* Frameworks */,
+				8EC1692D2139BDC6009EFBEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EC169312139BDC6009EFBEC /* PBXTargetDependency */,
+			);
+			name = vasikoRago_codePathUITests;
+			productName = vasikoRago_codePathUITests;
+			productReference = 8EC1692F2139BDC6009EFBEC /* vasikoRago_codePathUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EC169082139BDC5009EFBEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = vasikoRago;
+				TargetAttributes = {
+					8EC1690F2139BDC5009EFBEC = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					8EC169232139BDC6009EFBEC = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 8EC1690F2139BDC5009EFBEC;
+					};
+					8EC1692E2139BDC6009EFBEC = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 8EC1690F2139BDC5009EFBEC;
+					};
+				};
+			};
+			buildConfigurationList = 8EC1690B2139BDC5009EFBEC /* Build configuration list for PBXProject "vasikoRago_codePath" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EC169072139BDC5009EFBEC;
+			productRefGroup = 8EC169112139BDC5009EFBEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EC1690F2139BDC5009EFBEC /* vasikoRago_codePath */,
+				8EC169232139BDC6009EFBEC /* vasikoRago_codePathTests */,
+				8EC1692E2139BDC6009EFBEC /* vasikoRago_codePathUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EC1690E2139BDC5009EFBEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC1691E2139BDC6009EFBEC /* LaunchScreen.storyboard in Resources */,
+				8EC1691B2139BDC6009EFBEC /* Assets.xcassets in Resources */,
+				8EC169192139BDC5009EFBEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC169222139BDC6009EFBEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC1692D2139BDC6009EFBEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EC1690C2139BDC5009EFBEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC169162139BDC5009EFBEC /* ViewController.swift in Sources */,
+				8EC169142139BDC5009EFBEC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC169202139BDC6009EFBEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC169292139BDC6009EFBEC /* vasikoRago_codePathTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC1692B2139BDC6009EFBEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC169342139BDC6009EFBEC /* vasikoRago_codePathUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EC169262139BDC6009EFBEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EC1690F2139BDC5009EFBEC /* vasikoRago_codePath */;
+			targetProxy = 8EC169252139BDC6009EFBEC /* PBXContainerItemProxy */;
+		};
+		8EC169312139BDC6009EFBEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EC1690F2139BDC5009EFBEC /* vasikoRago_codePath */;
+			targetProxy = 8EC169302139BDC6009EFBEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8EC169172139BDC5009EFBEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EC169182139BDC5009EFBEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8EC1691C2139BDC6009EFBEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EC1691D2139BDC6009EFBEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EC169362139BDC6009EFBEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EC169372139BDC6009EFBEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EC169392139BDC6009EFBEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XSSCY8UC79;
+				INFOPLIST_FILE = vasikoRago_codePath/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vasikoRago.vasikoRago-codePath";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8EC1693A2139BDC6009EFBEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XSSCY8UC79;
+				INFOPLIST_FILE = vasikoRago_codePath/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vasikoRago.vasikoRago-codePath";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8EC1693C2139BDC6009EFBEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = vasikoRago_codePathTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vasikoRago.vasikoRago-codePathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vasikoRago_codePath.app/vasikoRago_codePath";
+			};
+			name = Debug;
+		};
+		8EC1693D2139BDC6009EFBEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = vasikoRago_codePathTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vasikoRago.vasikoRago-codePathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vasikoRago_codePath.app/vasikoRago_codePath";
+			};
+			name = Release;
+		};
+		8EC1693F2139BDC6009EFBEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = vasikoRago_codePathUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vasikoRago.vasikoRago-codePathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = vasikoRago_codePath;
+			};
+			name = Debug;
+		};
+		8EC169402139BDC6009EFBEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = vasikoRago_codePathUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vasikoRago.vasikoRago-codePathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = vasikoRago_codePath;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EC1690B2139BDC5009EFBEC /* Build configuration list for PBXProject "vasikoRago_codePath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EC169362139BDC6009EFBEC /* Debug */,
+				8EC169372139BDC6009EFBEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EC169382139BDC6009EFBEC /* Build configuration list for PBXNativeTarget "vasikoRago_codePath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EC169392139BDC6009EFBEC /* Debug */,
+				8EC1693A2139BDC6009EFBEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EC1693B2139BDC6009EFBEC /* Build configuration list for PBXNativeTarget "vasikoRago_codePathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EC1693C2139BDC6009EFBEC /* Debug */,
+				8EC1693D2139BDC6009EFBEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EC1693E2139BDC6009EFBEC /* Build configuration list for PBXNativeTarget "vasikoRago_codePathUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EC1693F2139BDC6009EFBEC /* Debug */,
+				8EC169402139BDC6009EFBEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EC169082139BDC5009EFBEC /* Project object */;
+}
