@@ -5,7 +5,7 @@ The pre-work requirements for the CodePath course, created by Vasiko Nikoloz Rag
 
 ### App Walk-though
 <img src="https://media.giphy.com/media/69rP6d63roxIJiLfhg/giphy.gif" width=200><br>
-  *** NOTE:
+ NOTE:
     Although not visible in the video, all the setting are reset because I clicked the background. The click is not seen in the gif.
 
 ### Required User Stories
